@@ -1,0 +1,27 @@
+#pemberian nilai di dalam variabel ada 2 inisialisasi atau input
+nama=input("Masukan nama anda =")
+##print(nama)
+umur=int(input("masukan umur anda ="))
+tinggibadan=float(input("masukan tinggi badan anda="))
+
+print(nama,"sekarang berumur",umur,"tahun dan memiliki tinggi badan",tinggibadan,"meter")
+
+##latihan di rumah
+##di input minimal 5 tipe string, 5 tipe float, 5 tipe int
+##tampilkan dalam bentuk cerita deskriptif
+
+bil1=int(input("masukan bil 1="))
+bil2=int(input("masukan bil2="))
+hasiljumlah = bil1+bil2
+print(bil1,"+",bil2,"=",hasiljumlah)
+print(bil2,"-",bil2,"=",(bil1-bil2))
+print(bil2,"*",bil2,"=",(bil1*bil2))
+print(bil2,"//",bil2,"=",(bil1//bil2))
+print(bil2,"%",bil2,"=",(bil1%bil2))
+
+a=int(input("masukan sebuah bilangan ="))
+b=int(input("masukan bilangan yang akan di kurang ="))
+print(hsil=a-b)
+a=a+b
+b=int(input("dikurangi dengan="))
+print("hasil"=(a-b))                          
